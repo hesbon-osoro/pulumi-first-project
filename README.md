@@ -1,6 +1,6 @@
 # Pulumi
 
-## Getting started with Pulumi
+## Getting started with [`Pulumi`](https://www.pulumi.com/)
 
 1. Create a directory for your project and move into it.
 
