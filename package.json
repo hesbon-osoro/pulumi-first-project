@@ -1,9 +1,15 @@
 {
-    "name": "pulumi-first-project",
-    "main": "index.js",
-    "dependencies": {
-        "@pulumi/pulumi": "^3.0.0",
-        "@pulumi/aws": "^5.0.0",
-        "@pulumi/awsx": "^0.40.0"
-    }
+	"name": "pulumi-first-project",
+	"main": "index.js",
+	"dependencies": {
+		"@pulumi/aws": "^5.0.0",
+		"@pulumi/awsx": "^0.40.0",
+		"@pulumi/pulumi": "^3.0.0"
+	},
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
 }
